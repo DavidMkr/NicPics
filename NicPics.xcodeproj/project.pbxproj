@@ -14,6 +14,8 @@
 		28FF887E2255D1830045767B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FF887C2255D1830045767B /* LaunchScreen.storyboard */; };
 		28FF88892255D1840045767B /* NicPicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF88882255D1840045767B /* NicPicsTests.swift */; };
 		28FF88942255D1840045767B /* NicPicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF88932255D1840045767B /* NicPicsUITests.swift */; };
+		28FF88A32255D1EF0045767B /* CGFloat+NicPics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF88A12255D1EE0045767B /* CGFloat+NicPics.swift */; };
+		28FF88A42255D1EF0045767B /* UIColor+NicPics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FF88A22255D1EE0045767B /* UIColor+NicPics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		28FF888F2255D1840045767B /* NicPicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicPicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FF88932255D1840045767B /* NicPicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicPicsUITests.swift; sourceTree = "<group>"; };
 		28FF88952255D1840045767B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FF88A12255D1EE0045767B /* CGFloat+NicPics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+NicPics.swift"; sourceTree = "<group>"; };
+		28FF88A22255D1EE0045767B /* UIColor+NicPics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+NicPics.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		28FF88722255D1820045767B /* NicPics */ = {
 			isa = PBXGroup;
 			children = (
+				28FF88A12255D1EE0045767B /* CGFloat+NicPics.swift */,
+				28FF88A22255D1EE0045767B /* UIColor+NicPics.swift */,
 				28FF88732255D1820045767B /* AppDelegate.swift */,
 				28FF88752255D1820045767B /* ViewController.swift */,
 				28FF88772255D1820045767B /* Main.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FF88A32255D1EF0045767B /* CGFloat+NicPics.swift in Sources */,
+				28FF88A42255D1EF0045767B /* UIColor+NicPics.swift in Sources */,
 				28FF88762255D1820045767B /* ViewController.swift in Sources */,
 				28FF88742255D1820045767B /* AppDelegate.swift in Sources */,
 			);
